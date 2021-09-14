@@ -1,0 +1,138 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.banner__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.banner__header h1 {
+  text-transform: capitalize;
+  font-family: "Bitter", serif;
+  font-size: 35px;
+  padding-bottom: 30px;
+  color: #ff7171;
+}
+
+.banner__header p {
+  font-family: "Comfortaa", cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  color: gray;
+  padding-bottom: 100px;
+}
+
+.banner__body {
+  display: flex;
+}
+
+.banner__bodyleft {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  align-items: center;
+}
+
+.banner__body__title {
+  font-family: "Bitter", serif;
+  color: #64c9cf;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.banner__body__title2 {
+  font-family: "Comfortaa", cursive;
+  font-size: 25px;
+  font-weight: bolder;
+  color: gray;
+}
+
+.banner__desc {
+  text-align: center;
+  padding: 30px;
+  font-size: 18px;
+  word-spacing: 8px;
+  color: gray;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.banner__button {
+  text-transform: capitalize;
+  font-size: 20px;
+  padding: 10px;
+  width: 160px;
+  background-color: white;
+  outline: none;
+  border: 2.5px solid #ff7171;
+  color: #ff7171;
+  cursor: pointer;
+}
+
+.banner__button:hover {
+  background-color: #64c9cf;
+  outline: none;
+  border: none;
+  color: whitesmoke;
+  transition-timing-function: ease-in;
+  transition: 0.56s;
+}
+
+.banner__bodyright {
+  display: flex;
+  margin-right: 15px;
+  flex: 5;
+  box-shadow: 4px 4px 7px 2px gray;
+}
+
+.banner__imagewrapper {
+  width: 65%;
+}
+
+.banner__bodyright img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.banner__cardwrapper {
+  background-color: white;
+}
+
+.banner__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgba(241, 241, 241, 0.924);
+}
+
+.banner__card > h1 {
+  font-family: "Bitter", serif;
+  font-size: 50px;
+  color: #df711b;
+  padding-bottom: 30px;
+}
+
+.banner__card h4 {
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: gray;
+}
+
+.banner__card p {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-style: italic;
+  font-weight: 1000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: gray;
+}

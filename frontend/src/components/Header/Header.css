@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background: url("../../assests/assest\ 1.jpeg") no-repeat;
+
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}
+
+.header__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 250px;
+}
+
+.header__title {
+  font-family: "Bitter", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.header__body > h1 {
+  font-family: "Bitter", serif;
+  font-size: 55px;
+  color: aliceblue;
+  margin-bottom: 40px;
+}
+
+.header__food {
+  font-family: "Bitter", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  line-height: 30px;
+}
+
+.header__button {
+  margin-top: 20px;
+  font-size: 18px;
+  width: 110px;
+  height: 40px;
+  border: 2px solid goldenrod;
+  border-radius: 5px;
+  cursor: pointer;
+}
